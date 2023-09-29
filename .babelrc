@@ -1,0 +1,20 @@
+{
+  "presets": [
+    [
+      "next/babel",
+      {
+        "preset-env": { "corejs": 3, "useBuiltIns": "usage" }
+      }
+    ]
+  ],
+  "plugins": [
+    ["babel-plugin-styled-components"],
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }]
+  ],
+  "env": {
+    "production": {
+      "plugins": [["babel-plugin-styled-components", { "displayName": false }]]
+    }
+  }
+}
