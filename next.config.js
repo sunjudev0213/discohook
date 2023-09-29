@@ -29,7 +29,7 @@ const config = {
       {
         source: "/bot",
         destination:
-          "https://discord.com/oauth2/authorize?client_id=633565743103082527&permissions=805694528&scope=applications.commands+bot",
+          "https://discord.com/api/oauth2/authorize?client_id=1157139021475098694&permissions=8&scope=bot%20applications.commands",
         permanent: false,
       },
     ]),
